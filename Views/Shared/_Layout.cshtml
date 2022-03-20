@@ -11,20 +11,20 @@
 
     <style>
         body{
-        background-color: gray;
+        background-color: #154360;
         }
 
    
         footer{
-            background-color: white;
+            background-color: #283747;
         }
 
     </style>
 <body>
-    <header>
+    <header> 
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Insercion</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Pagina principal</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -34,9 +34,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacidad</a>
-                        </li>
+
                          <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Clients" asp-action="Index">Ingresar clientes</a>
                         </li>
@@ -51,10 +49,19 @@
         </main>
     </div>
 
+    <style>
+        .container-fluid{
+            background-color: gray;
+           box-shadow: 3px 5px #283747;
+        }
+    </style>
+
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - Insercion - <a asp-area="" asp-controller="Inicio" asp-action="Privacy">Privacidad</a>
+            &copy; 2022 - Registro - <a asp-area="" asp-controller="Inicio" asp-action="Privacy"></a>
+
+            <a  href="https://github.com/LuisMorla/Insercion.git" >GitHub</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

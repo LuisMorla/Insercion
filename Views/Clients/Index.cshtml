@@ -6,8 +6,36 @@
 
 <h1>Registro Cliente</h1>
 
+
+<style>
+
+  
+    .repert{
+        text-decoration: none;
+        border-radius: 30px;
+        background-color: white;
+        padding: 5px;
+        font-size: 15px;
+        color: black;
+    }
+
+     .repert:hover{
+        background-color: gray;
+        text-decoration: underline;
+     }
+
+     .crear{
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 5px;
+        border-radius: 10px;
+     }
+     
+
+</style>
 <p>
-    <a asp-action="Create">Crear nuevo</a>
+    <a class="crear" asp-action="Create">Crear nuevo</a>
 </p>
 <table class="table">
     <thead>
@@ -43,9 +71,9 @@
                 @Html.DisplayFor(modelItem => item.Fecha_Registro)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Editar</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Vew</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Eliminar</a>
+                <a asp-action="Edit" asp-route-id="@item.ID" class="repert"><em>Editar</em></a> |
+                <a asp-action="Details" asp-route-id="@item.ID" class="repert"><em>Detalles</em></a> |
+                <a asp-action="Delete" asp-route-id="@item.ID" class="repert"><em>Eliminar</em></a>
             </td>
         </tr>
 }
