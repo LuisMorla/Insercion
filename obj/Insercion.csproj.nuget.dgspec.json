@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luis0\\source\\repos\\Insercion\\Insercion.csproj": {}
+    "C:\\Users\\luis0\\Desktop\\ProyectoConexion\\Insercion\\Insercion.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luis0\\source\\repos\\Insercion\\Insercion.csproj": {
+    "C:\\Users\\luis0\\Desktop\\ProyectoConexion\\Insercion\\Insercion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luis0\\source\\repos\\Insercion\\Insercion.csproj",
+        "projectUniqueName": "C:\\Users\\luis0\\Desktop\\ProyectoConexion\\Insercion\\Insercion.csproj",
         "projectName": "Insercion",
-        "projectPath": "C:\\Users\\luis0\\source\\repos\\Insercion\\Insercion.csproj",
+        "projectPath": "C:\\Users\\luis0\\Desktop\\ProyectoConexion\\Insercion\\Insercion.csproj",
         "packagesPath": "C:\\Users\\luis0\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luis0\\source\\repos\\Insercion\\obj\\",
+        "outputPath": "C:\\Users\\luis0\\Desktop\\ProyectoConexion\\Insercion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
